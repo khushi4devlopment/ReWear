@@ -1,0 +1,2 @@
+import {Router} from 'express'; import {stats,users,listings,deactivateUser,hideListing} from '../controllers/adminController.js'; import {protect,adminOnly} from '../middleware/auth.js';
+const r=Router();r.use(protect,adminOnly);r.get('/stats',stats);r.get('/users',users);r.get('/listings',listings);r.patch('/users/:id/toggle',deactivateUser);r.patch('/listings/:id/hide',hideListing);export default r;

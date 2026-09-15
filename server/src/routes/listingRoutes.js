@@ -1,0 +1,2 @@
+import {Router} from 'express'; import {list,getOne,create,update,remove} from '../controllers/listingController.js'; import {protect} from '../middleware/auth.js'; import {upload} from '../middleware/upload.js';
+const r=Router();r.get('/',list);r.get('/:id',getOne);r.post('/',protect,upload.array('images',5),create);r.put('/:id',protect,upload.array('images',5),update);r.delete('/:id',protect,remove);export default r;
