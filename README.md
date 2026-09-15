@@ -59,7 +59,10 @@ Backend runs on `http://localhost:5000`.
 Change demo passwords before deployment.
 
 ## Deployment
-- Frontend: Vercel / Netlify
-- Backend: Render / Railway
+- Frontend: Netlify
+- Backend: Railway
 - Database: MongoDB Atlas
-- Set `VITE_API_URL` to the deployed backend URL and configure `CLIENT_URL` on the backend.
+- VITE_API_URL=https://rewear-fnv1.onrender.com/api
+
+- ## Live Preview
+- https://rewearclothes.netlify.app/
