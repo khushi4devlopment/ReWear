@@ -1,4 +1,5 @@
 # ReWear — Clothing Exchange & Swap Marketplace
+- https://rewearclothes.netlify.app/
 
 A full-stack sustainable fashion marketplace built with **React + Bootstrap + JavaScript** on the frontend and **Node.js + Express + MongoDB (Mongoose)** on the backend.
 
@@ -47,10 +48,6 @@ npm install
 npm run dev
 ```
 
-Open the Vite URL shown in the terminal, usually `http://localhost:5173`.
-
-Backend runs on `http://localhost:5000`.
-
 ## Demo accounts after seed
 - Admin: `admin@rewear.local` / `Admin@123`
 - User: `riya@rewear.local` / `User@123`
@@ -62,7 +59,4 @@ Change demo passwords before deployment.
 - Frontend: Netlify
 - Backend: Railway
 - Database: MongoDB Atlas
-- VITE_API_URL=https://rewear-fnv1.onrender.com/api
 
-- ## Live Preview
-- https://rewearclothes.netlify.app/
